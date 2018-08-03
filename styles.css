@@ -1,0 +1,550 @@
+@import url("https://use.typekit.net/yhm2tha.css");
+
+
+/*
+ * Globals
+ */
+
+/* browser styles */
+
+@font-face {
+  font-family: 'distortion';
+  src: url(distortion.otf);
+}
+
+/* Links */
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: transparent;
+}
+
+body {
+  color: #fff;
+  font-family: "sofia-pro", sans-serif;
+}
+
+.cover-container {
+  max-width: 100%;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+/*
+ * Header
+ */
+
+.masthead {
+  padding: 10px;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  font-weight: 700;
+  color: white;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-link+.nav-link {
+  margin-left: 1rem;
+}
+
+.active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 1.5rem;
+}
+
+.cover-heading {
+  letter-spacing: 3.6px;
+  font-weight: bold;
+}
+
+aside.social-widgets {
+  background-color: transparent;
+  position: fixed;
+  left: 20px;
+  z-index: 9;
+}
+
+aside div {
+  padding: 10px 0px;
+}
+
+aside img {
+  padding: 5px 0px;
+  filter: drop-shadow(0 0.05rem 0.1rem rgba(0, 0, 0, .5));
+}
+
+
+/* second section */
+
+div.second-section {
+  background-color: #faf7f2;
+  color: #000;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* second section */
+
+div.second-section div.border-container {
+  border: solid 3px pink;
+  padding: 30px;
+  margin: 0px 80px;
+}
+
+div.second-section .title {
+  font-family: 'distortion';
+  padding: 30px 0px 0px 0px;
+  font-size: 75px;
+  letter-spacing: 11px;
+  text-shadow: 9px 10px #9e9e9e61;
+  color: #f685c1;
+  position: relative;
+  right: 80px;
+}
+
+div.second-section span.text-spans {
+  color: #f685c1;
+}
+
+span.image-evento {
+  width: 100px;
+  height: 100px;
+  background-image: url(img/photo_1.webp);
+}
+
+/* third section */
+
+div.third-section {
+  background-color: #dfd45f;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+div.third-section .title {
+  font-family: 'distortion';
+  padding: 30px 0px 0px 0px;
+  font-size: 75px;
+  letter-spacing: 11px;
+  text-shadow: 9px 10px #9e9e9e61;
+}
+
+div.fourth-section {
+  background-color: #bbd9c2;
+  color: #000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+div.fourth-section .title {
+  font-family: 'distortion';
+  padding: 30px 0px 0px 0px;
+  font-size: 75px;
+  letter-spacing: 11px;
+  text-shadow: 9px 10px #9e9e9e61;
+}
+
+
+div.fourth-section .image-programacao {
+  width: 600px;
+  padding: 20px 0px 0px 0px;
+}
+
+div.fifth-section .image-ingressos {
+  width: 600px;
+  padding: 20px 0px 0px 0px;
+}
+
+div.sixth-section .image-faq {
+  width: 600px;
+  padding: 20px 0px 0px 0px;
+}
+
+div.fifth-section .title {
+  font-family: 'distortion';
+  padding: 30px 0px 0px 0px;
+  font-size: 75px;
+  color: #e92525;
+  letter-spacing: 11px;
+  text-shadow: 9px 10px #9e9e9e61;
+}
+
+div.fifth-section p {
+  color: #000;
+}
+
+div.sixth-section {
+  background-color: #faf7f2;
+  color: #000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+div.sixth-section .title {
+  font-family: 'distortion';
+  font-size: 75px;
+  color: #000;
+  letter-spacing: 11px;
+  text-shadow: 9px 10px #9e9e9e61;
+}
+
+div.sixth-section .questions-padding {
+  padding: 20px 0px;
+}
+
+div.seventh-section {
+  background-color: #e96743;
+  color: #000;
+}
+
+div.seventh-section .title {
+  font-family: 'distortion';
+  padding: 30px 0px 30px 0px;
+  font-size: 75px;
+  color: #000;
+  letter-spacing: 11px;
+  text-shadow: 9px 10px #9e9e9e61;
+}
+
+div.seventh-section h3.instagram-title {
+  padding: 20px 0px;
+}
+
+div.seventh-section div.newsletter-form {
+  padding: 40px 0px 20px 0px;
+}
+
+.my-form-control {
+  border: solid 1px black;
+  background-color: transparent;
+  color: black;
+  border-radius: 0px;
+}
+
+.my-form-control:focus {
+  border: solid 1px black;
+  background-color: transparent;
+  color: black;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.my-form-control::placeholder {
+  color: black;
+}
+
+.my-btn {
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+.my-row {
+  margin: 0px !important;
+}
+
+.sofia-extra-light {
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 100;
+}
+
+.sofia-light {
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 400;
+}
+
+.sofia-bolder {
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 600;
+}
+
+.card-custom-style {
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+.card-custom-style .card-img-top {
+  padding: 25px;
+  width: 300px;
+}
+
+.card-custom-style a.card-link {
+  color: black;
+}
+
+
+.card-custom-style .title-space {
+  letter-spacing: 2px;
+}
+
+.fifth-section {
+  background-color: #f685c1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.ingressos-desc-2 {
+  padding: 60px 0px;
+}
+
+div.logo-container img.img-logo {
+  width: 400px;
+}
+
+div.first-section img.stl-logo {
+  width: 400px;
+  padding: 10px 0px;
+}
+
+div.sixth-section div.faq-container {
+  padding: 20px 100px;
+}
+
+div.seventh-section .assine-news-desc {
+  padding: 0px 170px;
+}
+
+div.seventh-section .contato-desc {
+  padding: 0px 100px;
+  font-size: 22px;
+}
+
+.arrow-button {
+  width: 30px;
+  padding: 10px 0px;
+}
+
+div.fourth-section div.talk-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div.fourth-section div.second-block-programacao {
+  padding: 0px;
+}
+
+div.fourth-section div.third-block-programacao {
+  padding: 0px 100px;
+}
+
+div.fifth-section div.ingressos-cta-btn {
+  padding: 80px 0px;
+}
+
+@media (max-width: 575.98px) {
+
+  .navbar {
+    margin: 20px;
+  }
+
+  div.fourth-section div.second-block-programacao {
+    padding: 30px 0px 10px 0px;
+  }
+
+  div.fourth-section div.third-block-programacao {
+    padding: 0px 10px 30px 10px;
+  }
+
+  .ingressos-desc-2 div {
+    padding: 20px 0px;
+  }
+
+  div.seventh-section .assine-news-desc {
+    padding: 0px;
+  }
+
+  div.seventh-section .contato-desc {
+    padding: 0px;
+    font-size: 20px;
+    padding-top: 40px;
+  }
+
+  div.ingressos-desc-2 {
+    padding: 30px 0px;
+  }
+
+
+  div.logo-container img.img-logo {
+    width: auto;
+    padding: 60px 0px;
+  }
+
+  div.second-section .title {
+    font-size: 40px;
+    position: unset;
+
+  }
+
+  div.third-section .title {
+    font-size: 35px;
+  }
+
+  div.second-section div.border-container {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .card-custom-style .card-img-top {
+    padding: 10px;
+    width: auto;
+  }
+
+  .card-custom-style .title-space {
+    font-size: 14px;
+  }
+
+  div.fifth-section .title {
+    font-size: 35px;
+    padding: 20px 0px 20px 0px;
+  }
+  
+  div.sixth-section .title {
+    font-size: 35px;
+  }
+
+  div.sixth-section div.faq-container {
+    padding: 10px 5px;
+  }
+
+  div.seventh-section .title {
+    font-size: 40px;
+  }
+  
+  div.fifth-section div.ingressos-cta-btn {
+    padding: 20px 0px;
+  }
+  
+}
+
+
+@media (min-width: 1000px) {
+
+  .navbar {
+    margin: 20px;
+  }
+
+  div.fourth-section div.second-block-programacao {
+    padding: 40px 100px;
+  }
+
+  div.logo-container img.img-logo {
+    width: 450px;
+    padding-bottom: 50px;
+  }
+
+  aside.social-widgets {
+    bottom: 190px;
+  }
+
+
+  div.fifth-section p.text-body {
+    padding: 50px 250px;
+  }
+
+  .my-nav-link {
+    margin: 5px;
+  }
+
+}
+
+@media (min-width:1600px) {
+
+  .my-nav-link {
+    margin: 10px;
+  }
+
+  div.logo-container img.img-logo {
+    width: 550px;
+    padding-bottom: 50px;
+  }
+
+  div.first-section {
+    padding: 150px;
+  }
+
+  div.first-section main.my-inner-cover {
+    padding-bottom: 50px;
+  }
+
+  div.first-section img.stl-logo {
+    width: 450px;
+    padding: 30px 0px;
+  }
+
+  .masthead {
+    padding: 30px;
+  }
+
+  aside.social-widgets {
+    bottom: 350px;
+  }
+
+  div.third-section div.palestrantes-container {
+    padding: 0px 100px;
+  }
+
+  div.fourth-section div.programacao-container {
+    border: solid 3px #ff673f;
+    margin: 0px 100px;
+    padding: 30px 0px;
+  }
+
+}
